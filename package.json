@@ -2,7 +2,7 @@
   "name": "pract2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "hhttp://testuser.github.io/testapp",
+  "homepage":"https://PEACompany.github.io/DesarrolloAplicaciones_Equipo2",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -13,10 +13,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
