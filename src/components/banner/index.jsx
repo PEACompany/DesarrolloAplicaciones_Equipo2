@@ -11,4 +11,8 @@ const Banner = (props) => {
 Banner.propTypes = {
     title: PropTypes.string.isRequired,
 };
+
+Banner.defaultProps = {
+    title: 'Texto'
+  };
 export default Banner

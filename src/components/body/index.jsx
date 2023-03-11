@@ -20,7 +20,7 @@ const Body = (props) => {
 }
 
 Body.propTypes = {
-    array: [],
+    array: PropTypes.array,
     title: PropTypes.string.isRequired
 };
 
